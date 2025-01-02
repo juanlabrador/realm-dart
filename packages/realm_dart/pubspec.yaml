@@ -23,8 +23,10 @@ dependencies:
   path: ^1.0.0
   pubspec_parse: ^1.0.0
   pub_semver: ^2.1.0
-  realm_common: ^3.4.2
-  realm_generator: ^3.4.2
+  realm_common:
+    path: ../realm_common
+  realm_generator:
+    path: ../realm_generator
   tar: ^1.0.1
   build_runner: ^2.1.0
   http: ^1.0.0

@@ -13,7 +13,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  realm_dart: ^3.4.2
+  realm_dart:
+    path: ../realm_dart/
 
 flutter:
   plugin:
